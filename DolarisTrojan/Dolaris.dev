@@ -1,0 +1,62 @@
+[Project]
+filename=Dolaris.dev
+name=Dolaris
+Type=0
+Ver=2
+ObjFiles=
+Includes=
+Libs=
+PrivateResource=
+ResourceIncludes=
+MakeIncludes=
+Compiler=-lgdi32 -lwinmm -lntdll -lkernel32 -std=c++11_@@_
+CppCompiler=-lgdi32 -lwinmm -lntdll -lkernel32 -std=c++11_@@_
+Linker=-lgdi32 -lwinmm -lntdll -lkernel32 -std=c++11_@@_
+IsCpp=1
+Icon=Dolaris.ico
+ExeOutput=
+ObjectOutput=
+LogOutput=
+LogOutputEnabled=0
+OverrideOutput=0
+OverrideOutputName=Dolaris.exe
+HostApplication=
+UseCustomMakefile=0
+CustomMakefile=
+CommandLine=
+Folders=
+IncludeVersionInfo=1
+SupportXPThemes=0
+CompilerSet=0
+CompilerSettings=0;0;1;0;0;0;0;0;8;0;0;0;0;0;0;0;0;0;0;0;0;1;8;0;0;0
+UnitCount=1
+
+[VersionInfo]
+Major=6
+Minor=6
+Release=6
+Build=6
+LanguageID=1033
+CharsetID=1252
+CompanyName=
+FileVersion=6.6.6.6
+FileDescription=Windows 7 Setup
+InternalName=
+LegalCopyright=
+LegalTrademarks=
+OriginalFilename=
+ProductName=
+ProductVersion=6.6.6.6
+AutoIncBuildNr=0
+SyncProduct=1
+
+[Unit1]
+FileName=main.cpp
+CompileCpp=1
+Folder=
+Compile=1
+Link=1
+Priority=1000
+OverrideBuildCmd=1
+BuildCmd=$(CPP) -c main.cpp -o main.o $(CXXFLAGS)
+
