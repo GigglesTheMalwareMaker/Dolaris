@@ -1,2 +1,2 @@
-# DolarisTrojan
-GDI Malware + Source
+# Dolaris
+C++ skidded GDI trojan by Hugopako, password: DolarisTrojan
